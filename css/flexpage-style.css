@@ -19,13 +19,13 @@ header {
 nav {
   display: flex;
   line-height: 50px;
-  text-decoration: none;
 }
 
 nav a {
   flex-grow: 1;
   border: 1px solid black;
   text-align: center;
+  text-decoration: none;
 }
 
 body {
@@ -46,6 +46,7 @@ aside a {
   border: 1px solid black;
   text-align: center;
   padding-top: 80%;
+  text-decoration: none;
 }
 
 img {
@@ -58,16 +59,10 @@ img {
   height: 100%;
 }
 
-.image-2 {
-  height: 90%;
-  width: 100%;
-}
 
 .row-1 {
   height: 100px;
 }
-
-
 
 .text-color {
   color: rgb(38,50,56);
@@ -79,6 +74,7 @@ img {
 }
 
 .padding {
+  box-sizing: border-box;  
   padding: 1%;
   border: 1px solid black;
   margin-top: 15px;
@@ -91,6 +87,10 @@ img {
 
 .main-block {
   flex: 1 0 auto;
+}
+
+.flex {
+  flex: 1;
 }
 
 footer {
